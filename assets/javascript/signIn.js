@@ -1,6 +1,6 @@
 let users = JSON.parse(localStorage.getItem('users')) || [];
 let usersCount = users.length;
-
+console.log(users);
 const email = document.querySelector('.Email');
 const firstPass = document.querySelector('.firstPass');
 const secondPass = document.querySelector('.secondPass');
